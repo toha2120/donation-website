@@ -3,7 +3,9 @@ body{
     margin: 0;
 }
 .image-banner {
-    display: flex;
+    position: relative;
+    height: 700px;
+    width: 100%;
     
 }
 .text-top{
@@ -23,5 +25,38 @@ h1{
     background-color: tomato;
     color: white;
     border-radius: 4px;
-       
+}
+.solution{
+    text-align: center;
+}
+.taka{
+    display: flex;
+    
+}
+div.taka #taka-1{
+    background-color: rgb(241, 237, 237);
+    padding: 40px;
+    margin: 50px;
+    margin-left: 20x;
+}
+div.taka #taka-2{
+    background-color: rgb(241, 237, 237);
+    border: 2px solid tomato;
+    padding: 40px;
+    margin: 50px;
+}
+div.taka #taka-3{
+    background-color: rgb(241, 237, 237);
+    padding: 50px;
+    margin: 50px;
+}
+div.taka #taka-4{
+    background-color: rgb(241, 237, 237);
+    padding: 50px;
+    margin: 50px;
+}
+div.taka #taka-5{
+    background-color: rgb(241, 237, 237);
+    padding: 50px;
+    margin: 50px;
 }
