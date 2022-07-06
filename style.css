@@ -35,9 +35,15 @@ h1{
 .section-2{
     text-align: center;
 }
+.section-2 p{
+    color: gray;
+    margin-top: 20px;
+}
 .taka{
-    display: flex;
-    
+    display: flex;  
+}
+.input{
+    border: none;
 }
 div.taka #taka-1{
     background-color: rgb(241, 237, 237);
@@ -119,13 +125,26 @@ div.education-part-text{
     color: black;
 }
 .Subscribe {
-    width: 70%;
+    padding: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    background-color: rgba(236, 185, 170, 0.534);
+    text-align: center;
+}
+.email{
     height: 50px;
-    padding: 30px;
-    position: relative;
-    margin-bottom: 20px;
-    left:200px ;
-    background-color: rgb(204, 128, 109);
+    width: 30%;
+    background-color: rgba(190, 189, 189, 0.774); 
+    border-style: none;
+}
+.Subscribe-btn{
+    height: 53px;
+    width: 15%;
+    background-color: crimson;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
 }
     /* footer */
 .footer-box{
