@@ -11,7 +11,7 @@ body{
 .text-top{
     position: absolute;
     text-align: center;
-    left: 420px;
+    left: 350px;
     bottom: 200px; 
     color: white;
 }
@@ -60,11 +60,39 @@ div.taka #taka-5{
     padding: 50px;
     margin: 50px;
 }
-
-.3-part-text{
+.three-part-text{
     display: flex;
+    width: 100%;
+    
 }
-div.1part-text{
+div.food-part-text{
+    background-color: rgb(226, 229, 229);
+    text-align: left;
+    padding: 70px 20px;
+    margin: 30px;
+    font-weight: 400
     
-    
+}
+div.shelter-part-text{
+    background-color: rgb(183, 194, 194);
+    text-align: left;
+    padding: 70px 20px;
+    margin: 30px;
+    font-weight: 400
+}
+div.education-part-text{
+    background-color: rgb(139, 141, 141);
+    text-align: left;
+    padding: 70px 20px;
+    margin: 30px;
+    font-weight: 400
+}
+.stuff{
+    position: static;
+    bottom: 5px;
+    text-align: center;
+    background-color: tomato;
+    text-align: left;
+    padding: 10px 
+
 }
